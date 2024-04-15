@@ -1,67 +1,32 @@
-# Getting Started with Create React App
+Bolsillo Feliz
+Aplicacion Web
+La aplicacion bolsillo feliz es un trabajo realizado en el tramo de poryecto grupal del bootcamp de Henry.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El objetivo de la aplicacion era:
 
-## Available Scripts
+-✅Que los usuarios pudiesen comparar los precios de distintos productos en todos los supermercados.
 
-In the project directory, you can run:
+-✅Que los usuarios puedan comentar sobre las difeentes tiendas.
 
-### `npm start`
+-✅Mostrar en el mapa que tan lejos tenias los supermercados.
 
-Runs the app in the development mode.\
- to view it in your browser.
+-✅Pedir tu rol supermercado y subir tus productos a el precio que los vendieras, eliminar esos productos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-✅Pedir el rol Administrador, donde podrias ver la lista de gente, podiendo cancelarlos, para que sus comentarios se eliminaran.
 
-### `npm test`
+Tecnologias utilizadas
+chartjs css3 express html5 javascript nodejs postgresql react redux
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Requisitos para ejecutarla localmente
+Instalar PostGres
+Crear una Base de datos llamada 'products'
+Dentro de "./api" cree una rchive .env y coloque los siguientes datos:
+DB_NAME=products
+DB_USER={su usuario de postgres}
+DB_PASSWORD={su password de postgres}
+DB_PORT=5432
+DB_DIALICT=postgres
+DB_HOST=localhost
+Parado en la carpeta "./api" y "./client" Debera ejecutar el comando npm install
+Luego en las mismas dos carpetas ejecutar "npm start"
+Espero que lo disfruten
